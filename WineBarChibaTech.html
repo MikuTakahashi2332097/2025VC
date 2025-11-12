@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Wine Bar ChibaTech</title>
+  <style>
+    body {
+      background-image: url("内装2.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 0;
+    }
+
+    header h1 {
+      font-size: 54px;
+    }
+
+    nav ul.menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: rgba(237,143,23,0.70);
+      border: thin solid #fff;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul.menu li {
+      list-style: none;
+      position: relative;
+    }
+
+    nav ul.menu a {
+      display: block;
+      width: 150px;
+      text-align: center;
+      line-height: 40px;
+      font-weight: bold;
+      text-decoration: none;
+      background-color: rgba(237,143,23,0.80);
+      color: #fff;
+      border-right: 1px solid #fff;
+    }
+
+    nav ul.menu a:hover {
+      background-color: #FFDDDD;
+      color: #D56B18;
+    }
+
+    nav ul.menu ul {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 0;
+      padding: 0;
+      border: thin solid #fff;
+      background-color: rgba(237,143,23,0.90);
+    }
+
+    nav ul.menu li:hover ul {
+      display: block;
+    }
+
+    nav ul.menu ul li a {
+      border-bottom: 1px solid #fff;
+    }
+
+    main {
+      padding: 30px;
+    }
+
+    .info-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+
+    .info-box {
+      background-color: rgba(237,143,23,0.70);
+      border: thin solid #fff;
+      padding: 20px;
+      width: 300px;
+      box-sizing: border-box;
+    }
+
+    .info-box img {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .course-section {
+      background-color: rgba(237,143,23,0.70);
+      border: thin solid #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .course-section .course-image {
+      width: 30%;
+      margin-top: 10px;
+    }
+
+    .course-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .course-item {
+      background-color: rgba(237,143,23,0.90);
+      border: thin solid #fff;
+      padding: 15px;
+      width: 250px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><img src="logo.png" alt="ロゴ" width="15%"> Wine Bar ChibaTech</h1>
+  </header>
+
+  <nav>
+    <ul class="menu">
+      <li><a href="WineBarChibaTech.html">HOME</a></li>
+      <li><a href="#">MENU</a>
+        <ul>
+          <li><a href="Kodawari.html">Commitment</a></li>
+          <li><a href="ALaCarte.html">A La Carte</a></li>
+        </ul>
+      </li>
+      <li><a href="Information.html">INFORMATION</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="info-section">
+      <div class="info-box">
+        <h3>●衛生対策は万全</h3>
+        <p>旬の食材を使ったコスパ最高美味しい料理<br>
+        自分達が美味しいと思ったワインだけをご用意<br>
+        女子会、記念日、友人とお気軽にどうぞ！！</p>
+      </div>
+
+      <div class="info-box">
+        <h3>※８名様以上の貸切は定休日でもお気軽にお電話でご相談ください。</h3>
+        <p>『普段使いの気取らない贅沢しませんか？』<br>
+        ワインの専門家はいません。自分達が美味しいと思ったワインだけをご用意しております。</p>
+      </div>
+
+      <div class="info-box">
+        <p>幸せを呼ぶ…ワインと国産牛肉とチーズの美味しいお店です。<br>
+        都田沼駅より徒歩2分とアクセス抜群！！<br>
+        お仕事帰りや大切なパートナー、ひとり飲みにも様々なシーンにご利用下さい。</p>
+      </div>
+    </section>
+
+    <section class="course-section">
+      <h3>●誕生日のサプライズも大歓迎！！ケーキ持ち込み可能です。</h3>
+      <h3>【コスパ最高のコースメニューも人気】</h3>
+		<img src="フレッシュなサラダ.jpg" alt="ガーリックトーストとワイン" class="course-image">
+		<img src="ガーリックトーストとワイン.jpg" alt="ガーリックトーストとワイン" class="course-image">
+		<img src="パテドカンパーニュ.jpg" alt="ガーリックトーストとワイン" class="course-image">
+      <div class="course-list">
+        <div class="course-item">
+          <h4>カジュアルコース</h4>
+          <p>2980円</p>
+        </div>
+        <div class="course-item">
+          <h4>スタンダードコース</h4>
+          <p>3980円</p>
+        </div>
+        <div class="course-item">
+          <h4>プレミアムコース</h4>
+          <p>5980円</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
